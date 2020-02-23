@@ -27,3 +27,9 @@ see here: https://github.com/ethereum/go-ethereum/wiki/Running-in-Docker
 All credits for the tool HoneyBadger go to Christof Ferreira Torres, Mathis Steichen and Radu State. 
 See their original paperand project here:  https://github.com/christoftorres/HoneyBadger
 
+
+the files honeypots_final.csv / honeypots_final.xlsx are a dataset of all currently known honeypots, as of 21.02.2020.
+Some data was taken from honeybadger.uni.lu, the rest was queried from a local ethereum node.
+
+This project is open-sourced. Do whatever you like with the provided resources
+
