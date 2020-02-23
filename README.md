@@ -1,4 +1,4 @@
-# badger
+# HoneypotRadar
 SRS Project Ethereum Honeypots
 
 Manual for scanning new Blocks for honeypots:
