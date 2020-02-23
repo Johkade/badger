@@ -15,7 +15,9 @@ see here: https://github.com/ethereum/go-ethereum/wiki/Running-in-Docker
 > pull honeybadger image from dockerhub and run it in the background:
   see here: https://github.com/christoftorres/HoneyBadger
   
-> name the docker containers eth_node and honeybadger, respectively. 
+> name the docker containers eth_node and honeybadger, respectively.
+> run honeybadger with a shared directory called /to_check by running it like this:
+> docker run -itd -v /to_check:/to_check --name honeybadger  christoftorres/honeybadger 
   
 > in order to start scanning new Blocks, pull this repository via git and run the script scan_for_honeypots.
 
